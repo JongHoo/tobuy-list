@@ -1,7 +1,7 @@
 import React from 'react'
-import { Tobuy } from '../interfaces/Tobuy'
+import { Product } from '../interfaces/Product'
 
-function TobuyCard({ title, link, description }: Tobuy) {
+function ProductCard({ title, link, description }: Product) {
   return (
     <div>
       <h3>{title}</h3>
@@ -11,4 +11,4 @@ function TobuyCard({ title, link, description }: Tobuy) {
   )
 }
 
-export default TobuyCard
+export default ProductCard

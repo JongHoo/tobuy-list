@@ -1,4 +1,4 @@
-function TobuyAdd() {
+function ProductAdd() {
   return (
     <div>
       <h2>Title</h2>
@@ -11,4 +11,4 @@ function TobuyAdd() {
   )
 }
 
-export default TobuyAdd
+export default ProductAdd
